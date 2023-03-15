@@ -542,6 +542,55 @@ button {
 	width: 40px;
 	height: 40px;
 }
+
+.footer-form {
+	display: flex;
+}
+
+.footer-form-discription {
+	font-weight: 500;
+	text-align: left;
+	color: #ffffff;
+	margin-bottom: 16px;
+}
+
+.footer-form-input {
+	font-size: 12px;
+	line-height: 3.5;
+	align-items: center;
+	letter-spacing: 0.04em;
+	padding-left: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.6);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	background-color: transparent;
+}
+
+.footer-form-submit {
+	font-weight: 500;
+	display: flex;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 24px;
+	align-self: center;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	background: var(--accent-color);
+	border-radius: 4px;
+	margin: auto;
+	padding: 16px 32px;
+	transition: color var(--transition-dur-and-fun), background-color var(--transition-dur-and-fun);
+	margin-bottom: 24px;
+}
+
+.footer-form-btn {
+	margin-left: 16px;
+}
+
 /*=================/<Footer===============*/
 
 /*=================<modal window===============*/
@@ -735,6 +784,7 @@ button {
 	margin: auto;
 	padding: 16px 32px;
 	transition: color var(--transition-dur-and-fun), background-color var(--transition-dur-and-fun);
+	margin-bottom: 24px;
 }
 
 .modal-form-submit:hover,
