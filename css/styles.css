@@ -677,13 +677,19 @@ button {
 	margin-bottom: 16px;
 }
 
+.modal-form-field {
+	margin-bottom: 8px;
+}
+
+.modal-form-field:nth-child(5) {
+	margin-bottom: 0;
+}
 .modal-form-input-desk {
 	display: block;
 	font-size: 12px;
 	line-height: 1.16;
 	letter-spacing: 0.04em;
 	margin-bottom: 4px;
-	margin-top: 8px;
 	color: #8e8f99;
 }
 
@@ -776,26 +782,16 @@ button {
 }
 
 .modal-form-submit {
-	width: 169px;
-	height: 56px;
 	font-weight: 500;
-	display: flex;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	padding-left: 32px;
-	padding-right: 32px;
-	align-self: center;
 	letter-spacing: 0.04em;
 	color: #ffffff;
 	background: var(--accent-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	display: block;
-	margin: auto;
-	padding: 16px 32px;
-	transition: color var(--transition-dur-and-fun), background-color var(--transition-dur-and-fun);
-	margin-bottom: 24px;
-	font-weight: 500;
+	margin: 0 auto;
+	padding: 16px 66px;
+	transition: background-color var(--transition-dur-and-fun);
 	border: none;
 }
 
